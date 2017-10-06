@@ -1,6 +1,6 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
+const today = new Date();
+const hourNow = today.getHours();
+let greeting;
 
 if (hourNow > 18) {
   greeting = 'Good Evening!';
@@ -12,4 +12,4 @@ if (hourNow > 18) {
   greeting = 'Welcome!';
 }
 
-document.write('<h3>' + greeting '</h3>');
+document.write('<h3>' + greeting + '</h3>');
